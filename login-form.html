@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Login or Create Account Form</title>
+</head>
+<body>
+ <div class="login-part">
+  <h1>Login</h1>
+  <form action="#" method="post">
+   <label for="login">Email or Phone:</label>
+   <input type="text" id="contact" name="contact" placeholder="Enter your email or phone" required>
+   <br><br>
+   <label for="password">Password:</label>
+   <input type="password" id="name" name="password"
+   placeholder="Enter your password">
+   <br><br>
+   <input type="submit" value="Login">
+  </form>
+ </div>
+ <div class="create-account-part">
+  <h1>Create New Account</h1>
+  <form action="#" method="post">
+   <label for="name">Full Name:</label>
+   <input type="text" id="name" name="name" placeholder="Enter your full name">
+   <br><br>
+   <label for="dob">Date of Birth:</label>
+   <input type="type" id="dob" name="dob" required min="1900-01-01" max="2024-12-31"><br><br>
+   <label for="sex">Select your sex:</label>
+   <select name="sex" id="sex">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+   </select><br><br>
+   <label for="contact">Email or Phone:</label>
+   <input type="text" id="contact"
+   name="contact" placeholder="Enter your email or phone">
+   <br><br>
+   <label for="password">Create Your Password:</label>
+   <input type="password" id="password" name="password" placeholder="Create your password" required><br><br>
+   <label for="password">Cofirm Your Password</label>
+   <input type="password" id="confirm_your_pasword" name="confirm_your_password" placeholder="Confirm your password">
+   <br><br>
+   <input type="submit" value="Create Account">
+  </form>
+ </div>
+</body>
+</html>

@@ -3,6 +3,33 @@
  padding: 0;
  font-family: sans-serif;
 }
+/* navbar styles */
+nav {
+ display: flex;
+}
+nav ul {
+ text-decoration: none;
+ list-style: none;
+ display: flex;
+ margin-left: 700px;
+ margin-top: 10;
+ position: relative;
+ position: absolute;
+}
+nav ul li {
+ margin: 10px;
+ padding: 10px;
+ color: white;
+}
+.nav ul li a {
+ text-decoration: none;
+ color: white;
+}
+.btn {
+ text-decoration: none;
+ color: white;
+}
+/* banner styles */
 .banner{
  height: 90vh;
  width: 100%;
@@ -41,22 +68,6 @@
 .content button:hover {
  background-color: #068858;
  transition: 0.5s ease-in;
-}
-nav {
- display: flex;
-}
-nav ul {
- text-decoration: none;
- list-style: none;
- display: flex;
- margin-left: 700px;
- margin-top: 10;
- position: relative;
- position: absolute;
-}
-nav ul li {
- margin: 10px;
- padding: 10px;
 }
 
 #coxsbazar{
